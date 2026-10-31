@@ -97,6 +97,396 @@ abstract class AppLocalizations {
     Locale('en'),
     Locale('vi'),
   ];
+
+  /// No description provided for @appName.
+  ///
+  /// In vi, this message translates to:
+  /// **'HomeLove'**
+  String get appName;
+
+  /// No description provided for @getStartedTitle.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chào mừng đến với HomeLove'**
+  String get getStartedTitle;
+
+  /// No description provided for @getStartedDescription.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nơi lưu giữ những khoảnh khắc yêu thương'**
+  String get getStartedDescription;
+
+  /// No description provided for @getStartedButton.
+  ///
+  /// In vi, this message translates to:
+  /// **'Bắt đầu'**
+  String get getStartedButton;
+
+  /// No description provided for @getStartedSignIn.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đã có tài khoản? Đăng nhập'**
+  String get getStartedSignIn;
+
+  /// No description provided for @signIn.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đăng nhập'**
+  String get signIn;
+
+  /// No description provided for @signInTitle.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chào mừng bạn quay trở lại'**
+  String get signInTitle;
+
+  /// No description provided for @signInWithGoogle.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đăng nhập với Google'**
+  String get signInWithGoogle;
+
+  /// No description provided for @dontHaveAccount.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chưa có tài khoản?'**
+  String get dontHaveAccount;
+
+  /// No description provided for @signUpNow.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đăng ký ngay'**
+  String get signUpNow;
+
+  /// No description provided for @signUp.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đăng ký'**
+  String get signUp;
+
+  /// No description provided for @signUpTitle.
+  ///
+  /// In vi, this message translates to:
+  /// **'Tạo tài khoản HomeLove'**
+  String get signUpTitle;
+
+  /// No description provided for @startLoveJourney.
+  ///
+  /// In vi, this message translates to:
+  /// **'Bắt đầu hành trình yêu thương của bạn'**
+  String get startLoveJourney;
+
+  /// No description provided for @alreadyHaveAccount.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đã có tài khoản?'**
+  String get alreadyHaveAccount;
+
+  /// No description provided for @signInNow.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đăng nhập ngay'**
+  String get signInNow;
+
+  /// No description provided for @agreeWith.
+  ///
+  /// In vi, this message translates to:
+  /// **'Tôi đồng ý với '**
+  String get agreeWith;
+
+  /// No description provided for @termsAndPrivacyPolicy.
+  ///
+  /// In vi, this message translates to:
+  /// **'Điều khoản và Chính sách bảo mật'**
+  String get termsAndPrivacyPolicy;
+
+  /// No description provided for @email.
+  ///
+  /// In vi, this message translates to:
+  /// **'Email'**
+  String get email;
+
+  /// No description provided for @emailHint.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nhập email của bạn'**
+  String get emailHint;
+
+  /// No description provided for @password.
+  ///
+  /// In vi, this message translates to:
+  /// **'Mật khẩu'**
+  String get password;
+
+  /// No description provided for @passwordHint.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nhập mật khẩu'**
+  String get passwordHint;
+
+  /// No description provided for @confirmPassword.
+  ///
+  /// In vi, this message translates to:
+  /// **'Xác nhận mật khẩu'**
+  String get confirmPassword;
+
+  /// No description provided for @confirmPasswordHint.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nhập lại mật khẩu'**
+  String get confirmPasswordHint;
+
+  /// No description provided for @or.
+  ///
+  /// In vi, this message translates to:
+  /// **'hoặc'**
+  String get or;
+
+  /// No description provided for @forgotPassword.
+  ///
+  /// In vi, this message translates to:
+  /// **'Quên mật khẩu?'**
+  String get forgotPassword;
+
+  /// No description provided for @forgotPasswordTitle.
+  ///
+  /// In vi, this message translates to:
+  /// **'Khôi phục mật khẩu'**
+  String get forgotPasswordTitle;
+
+  /// No description provided for @forgotPasswordDescription.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nhập email của bạn để nhận hướng dẫn đặt lại mật khẩu'**
+  String get forgotPasswordDescription;
+
+  /// No description provided for @sendResetLink.
+  ///
+  /// In vi, this message translates to:
+  /// **'Gửi liên kết đặt lại mật khẩu'**
+  String get sendResetLink;
+
+  /// No description provided for @backToSignIn.
+  ///
+  /// In vi, this message translates to:
+  /// **'Quay lại đăng nhập'**
+  String get backToSignIn;
+
+  /// No description provided for @resetEmailSent.
+  ///
+  /// In vi, this message translates to:
+  /// **'Hướng dẫn đặt lại mật khẩu đã được gửi nếu email tồn tại trong hệ thống'**
+  String get resetEmailSent;
+
+  /// No description provided for @profileInformation.
+  ///
+  /// In vi, this message translates to:
+  /// **'Thông tin cá nhân'**
+  String get profileInformation;
+
+  /// No description provided for @profileInformationDescription.
+  ///
+  /// In vi, this message translates to:
+  /// **'Hãy cho chúng mình biết thêm về bạn'**
+  String get profileInformationDescription;
+
+  /// No description provided for @fullName.
+  ///
+  /// In vi, this message translates to:
+  /// **'Họ và tên'**
+  String get fullName;
+
+  /// No description provided for @fullNameHint.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nhập họ và tên'**
+  String get fullNameHint;
+
+  /// No description provided for @dateOfBirth.
+  ///
+  /// In vi, this message translates to:
+  /// **'Ngày sinh'**
+  String get dateOfBirth;
+
+  /// No description provided for @dateOfBirthHint.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chọn ngày sinh'**
+  String get dateOfBirthHint;
+
+  /// No description provided for @gender.
+  ///
+  /// In vi, this message translates to:
+  /// **'Giới tính'**
+  String get gender;
+
+  /// No description provided for @male.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nam'**
+  String get male;
+
+  /// No description provided for @female.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nữ'**
+  String get female;
+
+  /// No description provided for @other.
+  ///
+  /// In vi, this message translates to:
+  /// **'Khác'**
+  String get other;
+
+  /// No description provided for @nickname.
+  ///
+  /// In vi, this message translates to:
+  /// **'Biệt danh'**
+  String get nickname;
+
+  /// No description provided for @nicknameHint.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nhập biệt danh'**
+  String get nicknameHint;
+
+  /// No description provided for @address.
+  ///
+  /// In vi, this message translates to:
+  /// **'Địa chỉ'**
+  String get address;
+
+  /// No description provided for @addressHint.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nhập địa chỉ'**
+  String get addressHint;
+
+  /// No description provided for @phoneNumber.
+  ///
+  /// In vi, this message translates to:
+  /// **'Số điện thoại'**
+  String get phoneNumber;
+
+  /// No description provided for @phoneNumberHint.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nhập số điện thoại'**
+  String get phoneNumberHint;
+
+  /// No description provided for @avatar.
+  ///
+  /// In vi, this message translates to:
+  /// **'Ảnh đại diện'**
+  String get avatar;
+
+  /// No description provided for @chooseAvatar.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chọn ảnh đại diện'**
+  String get chooseAvatar;
+
+  /// No description provided for @next.
+  ///
+  /// In vi, this message translates to:
+  /// **'Tiếp tục'**
+  String get next;
+
+  /// No description provided for @back.
+  ///
+  /// In vi, this message translates to:
+  /// **'Quay lại'**
+  String get back;
+
+  /// No description provided for @complete.
+  ///
+  /// In vi, this message translates to:
+  /// **'Hoàn thành'**
+  String get complete;
+
+  /// No description provided for @save.
+  ///
+  /// In vi, this message translates to:
+  /// **'Lưu'**
+  String get save;
+
+  /// No description provided for @cancel.
+  ///
+  /// In vi, this message translates to:
+  /// **'Hủy'**
+  String get cancel;
+
+  /// No description provided for @loading.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đang xử lý...'**
+  String get loading;
+
+  /// No description provided for @requiredField.
+  ///
+  /// In vi, this message translates to:
+  /// **'Vui lòng nhập thông tin này'**
+  String get requiredField;
+
+  /// No description provided for @invalidEmail.
+  ///
+  /// In vi, this message translates to:
+  /// **'Email không hợp lệ'**
+  String get invalidEmail;
+
+  /// No description provided for @passwordTooShort.
+  ///
+  /// In vi, this message translates to:
+  /// **'Mật khẩu phải có ít nhất 8 ký tự'**
+  String get passwordTooShort;
+
+  /// No description provided for @passwordsDoNotMatch.
+  ///
+  /// In vi, this message translates to:
+  /// **'Mật khẩu xác nhận không khớp'**
+  String get passwordsDoNotMatch;
+
+  /// No description provided for @invalidPhoneNumber.
+  ///
+  /// In vi, this message translates to:
+  /// **'Số điện thoại không hợp lệ'**
+  String get invalidPhoneNumber;
+
+  /// No description provided for @termsRequired.
+  ///
+  /// In vi, this message translates to:
+  /// **'Vui lòng đồng ý với điều khoản sử dụng'**
+  String get termsRequired;
+
+  /// No description provided for @signInSuccess.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đăng nhập thành công'**
+  String get signInSuccess;
+
+  /// No description provided for @signUpSuccess.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đăng ký thành công'**
+  String get signUpSuccess;
+
+  /// No description provided for @profileUpdateSuccess.
+  ///
+  /// In vi, this message translates to:
+  /// **'Cập nhật thông tin thành công'**
+  String get profileUpdateSuccess;
+
+  /// No description provided for @somethingWentWrong.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đã xảy ra lỗi. Vui lòng thử lại'**
+  String get somethingWentWrong;
+
+  /// No description provided for @featureUnderDevelopment.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chức năng đang được phát triển'**
+  String get featureUnderDevelopment;
 }
 
 class _AppLocalizationsDelegate

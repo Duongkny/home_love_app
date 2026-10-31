@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:homelove/src/core/extension/context.dart';
 import 'package:homelove/src/core/presentation/widgets/input_field.dart';
 
 
@@ -84,7 +85,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 SizedBox(height: 8.h),
 
                 Text(
-                  'HomeLove',
+                  context.loc.appName,
                   style: textTheme.headlineMedium?.copyWith(
                     color: colorScheme.onSurface,
                     fontWeight: FontWeight.bold,
@@ -94,7 +95,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 SizedBox(height: 8.h),
 
                 Text(
-                  'Tạo tài khoản mới',
+                  context.loc.signUpTitle,
                   style: textTheme.titleLarge?.copyWith(
                     color: colorScheme.onSurface,
                     fontWeight: FontWeight.w600,
@@ -104,7 +105,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 SizedBox(height: 6.h),
 
                 Text(
-                  'Bắt đầu hành trình yêu thương của bạn',
+                  context.loc.startLoveJourney,
                   textAlign: TextAlign.center,
                   style: textTheme.bodyMedium?.copyWith(
                     color: colorScheme.onSurfaceVariant,
@@ -119,7 +120,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     children: [
                       InputField.email(
                         controller: _emailController,
-                        hintText: 'Nhập email của bạn',
+                        labelText: context.loc.email,
+                        hintText: context.loc.emailHint,
                         textInputAction: TextInputAction.next,
                         prefixIcon: Icon(
                           Icons.mail_outline_rounded,
@@ -131,7 +133,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
                       InputField.password(
                         controller: _passwordController,
-                        hintText: 'Tạo mật khẩu',
+                        labelText: context.loc.password,
+                        hintText: context.loc.passwordHint,
                         textInputAction: TextInputAction.next,
                         prefixIcon: Icon(
                           Icons.lock_outline_rounded,
@@ -143,8 +146,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
                       InputField.password(
                         controller: _confirmPasswordController,
-                        labelText: 'Confirm Password',
-                        hintText: 'Xác nhận mật khẩu',
+                        labelText: context.loc.confirmPassword,
+                        hintText: context.loc.confirmPasswordHint,
                         textInputAction: TextInputAction.done,
                         prefixIcon: Icon(
                           Icons.lock_reset_rounded,
@@ -185,13 +188,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               WrapCrossAlignment.center,
                           children: [
                             Text(
-                              'Tôi đồng ý với ',
+                              context.loc.agreeWith,
                               style: textTheme.bodySmall,
                             ),
                             InkWell(
                               onTap: widget.onPrivacyPolicy,
                               child: Text(
-                                'Điều khoản và Chính sách bảo mật',
+                                context.loc.termsAndPrivacyPolicy,
                                 style: textTheme.bodySmall?.copyWith(
                                   color: colorScheme.primary,
                                   fontWeight: FontWeight.w600,
@@ -225,7 +228,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             ),
                           )
                         : Text(
-                            'Đăng ký',
+                            context.loc.signUp,
                             style: textTheme.titleMedium?.copyWith(
                               color: colorScheme.onPrimary,
                               fontWeight: FontWeight.w600,
@@ -244,7 +247,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         horizontal: 16.w,
                       ),
                       child: Text(
-                        'hoặc',
+                        context.loc.or,
                         style: textTheme.bodySmall?.copyWith(
                           color: colorScheme.onSurfaceVariant,
                         ),
@@ -265,7 +268,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     icon: const Icon(
                       Icons.account_circle_outlined,
                     ),
-                    label: const Text('Tiếp tục với Google'),
+                    label: Text(context.loc.signInWithGoogle),
                   ),
                 ),
 
@@ -277,13 +280,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   crossAxisAlignment: WrapCrossAlignment.center,
                   children: [
                     Text(
-                      'Đã có tài khoản?',
+                      context.loc.alreadyHaveAccount,
                       style: textTheme.bodyMedium,
                     ),
                     TextButton(
                       onPressed:
                           isLoading ? null : widget.onSignIn,
-                      child: const Text('Đăng nhập'),
+                      child: Text(context.loc.signIn),
                     ),
                   ],
                 ),
@@ -304,8 +307,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
     if (_passwordController.text !=
         _confirmPasswordController.text) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Mật khẩu xác nhận không khớp'),
+        SnackBar(
+          content: Text(context.loc.passwordsDoNotMatch),
         ),
       );
       return;
@@ -314,9 +317,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
     // Kiểm tra điều khoản
     if (!_isAgreePolicy) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
+        SnackBar(
           content: Text(
-            'Vui lòng đồng ý với điều khoản sử dụng',
+            context.loc.termsRequired,
           ),
         ),
       );

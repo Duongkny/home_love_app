@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -27,7 +26,7 @@ class MyApp extends StatelessWidget {
           providers: appProviders,
           child: MaterialApp.router(
             debugShowCheckedModeBanner: false,
-            title: 'HomeLove',
+            locale: const Locale('vi'),
 
             // Theme
             theme: appTheme.light(),

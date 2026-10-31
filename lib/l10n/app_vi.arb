@@ -1,3 +1,79 @@
+
 {
-    "@@locale": "vi"
+  "@@locale": "vi",
+
+  "appName": "HomeLove",
+
+  "getStartedTitle": "Chào mừng đến với HomeLove",
+  "getStartedDescription": "Nơi lưu giữ những khoảnh khắc yêu thương",
+  "getStartedButton": "Bắt đầu",
+  "getStartedSignIn": "Đã có tài khoản? Đăng nhập",
+
+  "signIn": "Đăng nhập",
+  "signInTitle": "Chào mừng bạn quay trở lại",
+  "signInWithGoogle": "Đăng nhập với Google",
+  "dontHaveAccount": "Chưa có tài khoản?",
+  "signUpNow": "Đăng ký ngay",
+
+  "signUp": "Đăng ký",
+  "signUpTitle": "Tạo tài khoản HomeLove",
+  "startLoveJourney": "Bắt đầu hành trình yêu thương của bạn",
+  "alreadyHaveAccount": "Đã có tài khoản?",
+  "signInNow": "Đăng nhập ngay",
+  "agreeWith": "Tôi đồng ý với ",
+  "termsAndPrivacyPolicy": "Điều khoản và Chính sách bảo mật",
+
+  "email": "Email",
+  "emailHint": "Nhập email của bạn",
+  "password": "Mật khẩu",
+  "passwordHint": "Nhập mật khẩu",
+  "confirmPassword": "Xác nhận mật khẩu",
+  "confirmPasswordHint": "Nhập lại mật khẩu",
+  "or": "hoặc",
+
+  "forgotPassword": "Quên mật khẩu?",
+  "forgotPasswordTitle": "Khôi phục mật khẩu",
+  "forgotPasswordDescription": "Nhập email của bạn để nhận hướng dẫn đặt lại mật khẩu",
+  "sendResetLink": "Gửi liên kết đặt lại mật khẩu",
+  "backToSignIn": "Quay lại đăng nhập",
+  "resetEmailSent": "Hướng dẫn đặt lại mật khẩu đã được gửi nếu email tồn tại trong hệ thống",
+
+  "profileInformation": "Thông tin cá nhân",
+  "profileInformationDescription": "Hãy cho chúng mình biết thêm về bạn",
+  "fullName": "Họ và tên",
+  "fullNameHint": "Nhập họ và tên",
+  "dateOfBirth": "Ngày sinh",
+  "dateOfBirthHint": "Chọn ngày sinh",
+  "gender": "Giới tính",
+  "male": "Nam",
+  "female": "Nữ",
+  "other": "Khác",
+  "nickname": "Biệt danh",
+  "nicknameHint": "Nhập biệt danh",
+  "address": "Địa chỉ",
+  "addressHint": "Nhập địa chỉ",
+  "phoneNumber": "Số điện thoại",
+  "phoneNumberHint": "Nhập số điện thoại",
+  "avatar": "Ảnh đại diện",
+  "chooseAvatar": "Chọn ảnh đại diện",
+
+  "next": "Tiếp tục",
+  "back": "Quay lại",
+  "complete": "Hoàn thành",
+  "save": "Lưu",
+  "cancel": "Hủy",
+  "loading": "Đang xử lý...",
+
+  "requiredField": "Vui lòng nhập thông tin này",
+  "invalidEmail": "Email không hợp lệ",
+  "passwordTooShort": "Mật khẩu phải có ít nhất 8 ký tự",
+  "passwordsDoNotMatch": "Mật khẩu xác nhận không khớp",
+  "invalidPhoneNumber": "Số điện thoại không hợp lệ",
+  "termsRequired": "Vui lòng đồng ý với điều khoản sử dụng",
+
+  "signInSuccess": "Đăng nhập thành công",
+  "signUpSuccess": "Đăng ký thành công",
+  "profileUpdateSuccess": "Cập nhật thông tin thành công",
+  "somethingWentWrong": "Đã xảy ra lỗi. Vui lòng thử lại",
+  "featureUnderDevelopment": "Chức năng đang được phát triển"
 }

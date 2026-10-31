@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:homelove/src/core/extension/context.dart';
 import 'package:homelove/src/core/presentation/widgets/input_field.dart';
 
 import '../bloc/auth_bloc.dart';
@@ -100,7 +101,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   SizedBox(height: 8.h),
 
                   Text(
-                    'HomeLove',
+                    context.loc.appName,
                     style: textTheme.headlineMedium?.copyWith(
                       fontWeight: FontWeight.bold,
                       color: colorScheme.onSurface,
@@ -110,7 +111,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   SizedBox(height: 4.h),
 
                   Text(
-                    'Chào mừng bạn quay trở lại',
+                    context.loc.signInTitle,
                     textAlign: TextAlign.center,
                     style: textTheme.bodyMedium?.copyWith(
                       color: colorScheme.onSurfaceVariant,
@@ -126,8 +127,8 @@ class _SignInScreenState extends State<SignInScreen> {
                       children: [
                         InputField.email(
                           controller: _emailController,
-                          
-                          hintText: 'Nhập email của bạn',
+                          labelText: context.loc.email,
+                          hintText: context.loc.emailHint,
                           textInputAction: TextInputAction.next,
                           prefixIcon: Icon(
                             Icons.mail_outline_rounded,
@@ -139,7 +140,8 @@ class _SignInScreenState extends State<SignInScreen> {
 
                         InputField.password(
                           controller: _passwordController,
-                          hintText: 'Nhập mật khẩu',
+                          labelText: context.loc.password,
+                          hintText: context.loc.passwordHint,
                           textInputAction: TextInputAction.done,
                           prefixIcon: Icon(
                             Icons.lock_outline_rounded,
@@ -163,7 +165,7 @@ class _SignInScreenState extends State<SignInScreen> {
                           ? null
                           : widget.onForgotPassword,
                       child: Text(
-                        'Quên mật khẩu?',
+                        context.loc.forgotPassword,
                         style: textTheme.labelLarge?.copyWith(
                           color: colorScheme.primary,
                         ),
@@ -191,7 +193,7 @@ class _SignInScreenState extends State<SignInScreen> {
                               ),
                             )
                           : Text(
-                              'Đăng nhập',
+                              context.loc.signIn,
                               style: textTheme.titleMedium?.copyWith(
                                 color: colorScheme.onPrimary,
                                 fontWeight: FontWeight.w600,
@@ -211,7 +213,7 @@ class _SignInScreenState extends State<SignInScreen> {
                           horizontal: 16.w,
                         ),
                         child: Text(
-                          'hoặc',
+                          context.loc.or,
                           style: textTheme.bodySmall?.copyWith(
                             color: colorScheme.onSurfaceVariant,
                           ),
@@ -232,8 +234,8 @@ class _SignInScreenState extends State<SignInScreen> {
                       icon: const Icon(
                         Icons.account_circle_outlined,
                       ),
-                      label: const Text(
-                        'Đăng nhập với Google',
+                      label: Text(
+                        context.loc.signInWithGoogle,
                       ),
                     ),
                   ),
@@ -246,14 +248,14 @@ class _SignInScreenState extends State<SignInScreen> {
                     crossAxisAlignment: WrapCrossAlignment.center,
                     children: [
                       Text(
-                        'Chưa có tài khoản?',
+                        context.loc.dontHaveAccount,
                         style: textTheme.bodyMedium,
                       ),
                       TextButton(
                         onPressed: isLoading
                             ? null
                             : widget.onSignUp,
-                        child: const Text('Đăng ký ngay'),
+                        child: Text(context.loc.signUpNow),
                       ),
                     ],
                   ),
