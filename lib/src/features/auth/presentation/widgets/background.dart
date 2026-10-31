@@ -9,7 +9,7 @@ class Background extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox.expand(
       child: Image.asset(
-        Assets.bgr,
+        Assets.backgroundAuth,
         fit: BoxFit.cover,
         alignment: Alignment.center,
       ),

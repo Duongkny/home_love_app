@@ -1,6 +1,6 @@
-
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+import 'package:homelove/src/features/auth/presentation/screens/forgot_password_screen.dart';
 
 import '../core/injections/injections.dart';
 
@@ -14,9 +14,7 @@ import 'route.dart';
 final List<RouteBase> authRoutes = [
   ShellRoute(
     builder: (context, state, child) {
-      return AuthScreen(
-        child: child,
-      );
+      return AuthScreen(child: child);
     },
     routes: [
       GoRoute(
@@ -26,8 +24,7 @@ final List<RouteBase> authRoutes = [
             create: (_) => getIt<AuthBloc>(),
             child: SignInScreen(
               onSignUp: () => AppRoute.signUp.go(context),
-              onForgotPassword: () =>
-                  AppRoute.forgotPassword.push(context),
+              onForgotPassword: () => AppRoute.forgotPassword.push(context),
             ),
           );
         },
@@ -39,11 +36,17 @@ final List<RouteBase> authRoutes = [
             create: (_) => getIt<AuthBloc>(),
             child: SignUpScreen(
               onSignIn: () => AppRoute.signIn.go(context),
-              onSignUpSuccess: () =>
-                  AppRoute.signUpInformation.go(context),
+              onSignUpSuccess: () => AppRoute.signUpInformation.go(context),
             ),
           );
         },
+      ),
+      GoRoute(
+        path: AppRoute.forgotPassword.path,
+        builder: (context, state) => BlocProvider(
+          create: (_) => getIt<AuthBloc>(),
+          child: const ForgotPasswordScreen(),
+        ),
       ),
     ],
   ),

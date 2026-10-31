@@ -1,5 +1,5 @@
 class Assets {
   Assets._();
 
-  static const String bgr = "assets/images/anhbia.jpg";
+  static const String backgroundAuth = "assets/images/background_auth.png";
 }
