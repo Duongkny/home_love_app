@@ -26,6 +26,33 @@ class AppLocalizationsEn extends AppLocalizations {
   String get getStartedSignIn => 'Already have an account? Sign In';
 
   @override
+  String get onboardingMemoryTitle => 'Treasure Your Memories';
+
+  @override
+  String get onboardingMemoryDescription =>
+      'Capture the special moments of your journey together';
+
+  @override
+  String get onboardingHabitsTitle => 'Build Good Habits Together';
+
+  @override
+  String get onboardingHabitsDescription =>
+      'Plan, remind and experience more meaningful moments every day';
+
+  @override
+  String get onboardingConnectionTitle => 'Grow Closer Together';
+
+  @override
+  String get onboardingConnectionDescription =>
+      'Share feelings, understand each other and build your own journey';
+
+  @override
+  String get skip => 'Skip';
+
+  @override
+  String get createAccount => 'Create Account';
+
+  @override
   String get signIn => 'Sign In';
 
   @override

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "869497633560",
+    "project_id": "home-love-dev",
+    "storage_bucket": "home-love-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869497633560:android:643fcc6d59d51d90b27c6d",
+        "android_client_info": {
+          "package_name": "com.homelove.app.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3LNY80kT5yX0HlHW6D8LJHJpZf6ZdqsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869497633560:android:91008659a255e813b27c6d",
+        "android_client_info": {
+          "package_name": "com.homelove.homelove"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3LNY80kT5yX0HlHW6D8LJHJpZf6ZdqsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869497633560:android:e4e27c88dea12467b27c6d",
+        "android_client_info": {
+          "package_name": "com.homelove.homelove.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3LNY80kT5yX0HlHW6D8LJHJpZf6ZdqsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -6,7 +6,7 @@ import 'router.main.dart';
 import 'route.dart';
 
 final GoRouter appRouter = GoRouter(
-  initialLocation: AppRoute.signIn.path,
+  initialLocation: AppRoute.getStarted.path,
   routes: [
     ...authRoutes,
     // ...mainRoutes,

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "522293654023",
+    "project_id": "home-love-prod",
+    "storage_bucket": "home-love-prod.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522293654023:android:99fb9bb918c98a21bcb0a2",
+        "android_client_info": {
+          "package_name": "com.homelove.homelove"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB4_p03R-8vltOvsy_oDT5r5IGJfkckAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

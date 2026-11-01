@@ -9,6 +9,17 @@
   "getStartedButton": "Bắt đầu",
   "getStartedSignIn": "Đã có tài khoản? Đăng nhập",
 
+
+  
+  "onboardingMemoryTitle": "Lưu giữ khoảnh khắc",
+  "onboardingMemoryDescription": "Ghi lại những kỷ niệm đáng nhớ trong hành trình của hai bạn",
+  "onboardingHabitsTitle": "Cùng nhau tạo những thói quen tốt",
+  "onboardingHabitsDescription": "Nhắc nhở, lên kế hoạch và trải nghiệm nhiều điều ý nghĩa hơn mỗi ngày",
+  "onboardingConnectionTitle": "Kết nối sâu hơn",
+  "onboardingConnectionDescription": "Chia sẻ cảm xúc, hiểu nhau hơn và cùng xây dựng hành trình riêng",
+  "skip": "Bỏ qua",
+  "createAccount": "Tạo tài khoản",
+
   "signIn": "Đăng nhập",
   "signInTitle": "Chào mừng bạn quay trở lại",
   "signInWithGoogle": "Đăng nhập với Google",

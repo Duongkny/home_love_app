@@ -128,6 +128,54 @@ abstract class AppLocalizations {
   /// **'Đã có tài khoản? Đăng nhập'**
   String get getStartedSignIn;
 
+  /// No description provided for @onboardingMemoryTitle.
+  ///
+  /// In vi, this message translates to:
+  /// **'Lưu giữ khoảnh khắc'**
+  String get onboardingMemoryTitle;
+
+  /// No description provided for @onboardingMemoryDescription.
+  ///
+  /// In vi, this message translates to:
+  /// **'Ghi lại những kỷ niệm đáng nhớ trong hành trình của hai bạn'**
+  String get onboardingMemoryDescription;
+
+  /// No description provided for @onboardingHabitsTitle.
+  ///
+  /// In vi, this message translates to:
+  /// **'Cùng nhau tạo những thói quen tốt'**
+  String get onboardingHabitsTitle;
+
+  /// No description provided for @onboardingHabitsDescription.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nhắc nhở, lên kế hoạch và trải nghiệm nhiều điều ý nghĩa hơn mỗi ngày'**
+  String get onboardingHabitsDescription;
+
+  /// No description provided for @onboardingConnectionTitle.
+  ///
+  /// In vi, this message translates to:
+  /// **'Kết nối sâu hơn'**
+  String get onboardingConnectionTitle;
+
+  /// No description provided for @onboardingConnectionDescription.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chia sẻ cảm xúc, hiểu nhau hơn và cùng xây dựng hành trình riêng'**
+  String get onboardingConnectionDescription;
+
+  /// No description provided for @skip.
+  ///
+  /// In vi, this message translates to:
+  /// **'Bỏ qua'**
+  String get skip;
+
+  /// No description provided for @createAccount.
+  ///
+  /// In vi, this message translates to:
+  /// **'Tạo tài khoản'**
+  String get createAccount;
+
   /// No description provided for @signIn.
   ///
   /// In vi, this message translates to:

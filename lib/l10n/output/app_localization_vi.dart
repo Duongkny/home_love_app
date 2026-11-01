@@ -26,6 +26,33 @@ class AppLocalizationsVi extends AppLocalizations {
   String get getStartedSignIn => 'Đã có tài khoản? Đăng nhập';
 
   @override
+  String get onboardingMemoryTitle => 'Lưu giữ khoảnh khắc';
+
+  @override
+  String get onboardingMemoryDescription =>
+      'Ghi lại những kỷ niệm đáng nhớ trong hành trình của hai bạn';
+
+  @override
+  String get onboardingHabitsTitle => 'Cùng nhau tạo những thói quen tốt';
+
+  @override
+  String get onboardingHabitsDescription =>
+      'Nhắc nhở, lên kế hoạch và trải nghiệm nhiều điều ý nghĩa hơn mỗi ngày';
+
+  @override
+  String get onboardingConnectionTitle => 'Kết nối sâu hơn';
+
+  @override
+  String get onboardingConnectionDescription =>
+      'Chia sẻ cảm xúc, hiểu nhau hơn và cùng xây dựng hành trình riêng';
+
+  @override
+  String get skip => 'Bỏ qua';
+
+  @override
+  String get createAccount => 'Tạo tài khoản';
+
+  @override
   String get signIn => 'Đăng nhập';
 
   @override

@@ -9,6 +9,15 @@
   "getStartedButton": "Get Started",
   "getStartedSignIn": "Already have an account? Sign In",
 
+  "onboardingMemoryTitle": "Treasure Your Memories",
+  "onboardingMemoryDescription": "Capture the special moments of your journey together",
+  "onboardingHabitsTitle": "Build Good Habits Together",
+  "onboardingHabitsDescription": "Plan, remind and experience more meaningful moments every day",
+  "onboardingConnectionTitle": "Grow Closer Together",
+  "onboardingConnectionDescription": "Share feelings, understand each other and build your own journey",
+  "skip": "Skip",
+  "createAccount": "Create Account",
+
   "signIn": "Sign In",
   "signInTitle": "Welcome back",
   "signInWithGoogle": "Sign in with Google",
